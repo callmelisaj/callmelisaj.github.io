@@ -1,0 +1,21 @@
+# Site settings
+title: Learning with Learn
+header-img: img/home-bg.png
+email: lisa.jiang@flatironschool.com
+copyright_name: callmelisaj
+description: > # this means to ignore newlines until "baseurl:"
+  My journey through Learn 
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: callmelisaj
+github_username:  callmelisaj
+learn_profile: callmelisaj
+email_username: lisa.jiang@flatironschool.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
